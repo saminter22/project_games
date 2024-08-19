@@ -14,8 +14,8 @@ git clone https://github.com/saminter22/project_games.git
 ```
 cd project_games
 python -m venv venv
-pip install -r requirements.txt
 . venv/Sctipts/activate
+pip install -r requirements.txt
 ```
 3. Запустите Jupyther notebook командой:
 ```
