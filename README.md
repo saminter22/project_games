@@ -8,10 +8,11 @@
 
 1. скачайте репозиторий командой:
 ```
-git clone git@github.com:saminter22/project_games.git
+git clone https://github.com/saminter22/project_games.git
 ```
-2. Установите виртуальное окружение, устоновите зависимости и активируйте виритуальное окружение:
+2. Перейдите в папку проекта, установите виртуальное окружение, установите зависимости и активируйте виртуальное окружение:
 ```
+cd project_games
 python -m venv venv
 pip install -r requirements.txt
 . venv/Sctipts/activate
