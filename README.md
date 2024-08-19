@@ -17,10 +17,14 @@ python -m venv venv
 . venv/Scripts/activate
 pip install -r requirements.txt
 ```
-3. Запустите Jupyther notebook командой:
+3. Обновите pip чтобы не было редупреждений об обновлении:
+```
+python -m pip install --upgrade pip
+```
+4. Запустите Jupyther notebook командой:
 ```
 jupyter notebook
 ```
-4. откройте файл project_games
+5. откройте файл project_games
 
 В проекте используются датасеты с ресурса https://code.s3.yandex.net/datasets/
